@@ -19,7 +19,10 @@
 <?php require('footer.php') ?>
 
 
-<!-- insertion du script assets/js/app.js -->
+<!-- insertion du script jquery.min.js -->
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+<!-- insertion du script app.js -->
 <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>

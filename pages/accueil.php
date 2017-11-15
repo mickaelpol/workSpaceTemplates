@@ -3,7 +3,7 @@
 </div>
 
 <div class="container">
-  <div class="row workspace">
+  <div id="workSpace" class="row workspaceG">
     <div class="table-responsive">
       <table class="table text-center table-hover">
         <thead>
@@ -38,7 +38,7 @@
           <tr>
             <td>3</td>
             <td>Jean</td>
-            <td>Dujardin</td>
+            <td>blop</td>
             <td>40</td>
             <td>Bordeaux</td>
             <td>FR</td>
@@ -47,4 +47,5 @@
       </table>
     </div>
   </div>
+  <button id="color" class="btn btn-gris btn-lg text-uppercase">gris/jaune</button>
 </div>
