@@ -1,6 +1,6 @@
 # workSpaceTemplates
 
-Pour installer le workspace templates :
+## Pour installer le workspace templates :
 
 * cloner le repos sur votre espace de travail local
 * changez l'adresse du repo pour pusher sur votre nouveau repo
@@ -12,4 +12,4 @@ Pour installer le workspace templates :
 * Vous avez enfin votre espace de travail prêt a recevoir votre travail
 
 
-## Good luck and have fun
+### Good luck and have fun
