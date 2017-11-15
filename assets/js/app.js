@@ -1,30 +1,36 @@
 //      Chargement jquery
 $(document).ready(function(){
 //===========================
+  var color = $('#color');
+  var wk = $('#workSpace');
+  var count = 0;
 
-var color = $('#color');
-var wk = $('#workSpace');
-var count = 0;
+function changeCouleur(param1, param2, param3) {
 
-color.click(function(){
 
-  count++;
+  param1.click(function(){
 
-  if (count%1 == 0) {
+    param3++;
 
-    wk.removeClass('workspaceG').addClass('workspaceJ');
-    color.removeClass('btn-gris').addClass('btn-jaune');
+    if (param3%1 == 0) {
 
-  }
+      param2.removeClass('workspaceG').addClass('workspaceJ');
+      param1.removeClass('btn-gris').addClass('btn-jaune');
 
-  if (count%2 == 0) {
+    }
 
-    wk.removeClass('workspaceJ').addClass('workspaceG');
-    color.removeClass('btn-jaune').addClass('btn-gris');
+    if (param3%2 == 0) {
 
-  }
+      param2.removeClass('workspaceJ').addClass('workspaceG');
+      param1.removeClass('btn-jaune').addClass('btn-gris');
 
-});
+    }
+
+  });
+}
+
+//======== APPEL de la fonction pour changer la couleur ===========//
+changeCouleur(color, wk, count);
 
 //===========================
 });
