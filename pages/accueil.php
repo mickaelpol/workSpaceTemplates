@@ -48,4 +48,5 @@
     </div>
   </div>
   <button id="color" class="btn btn-gris btn-lg text-uppercase">gris/jaune</button>
+  <button id="bG" class="btn btn-yellow btn-lg text-uppercase">Change Background</button>
 </div>

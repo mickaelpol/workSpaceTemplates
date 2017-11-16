@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/font/font.css">
 </head>
-<body>
+<body id="body" class="bodyD">
 
 <!-- include de la navbar -->
 <?php require('navbar.php') ?>

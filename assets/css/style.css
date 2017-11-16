@@ -5,7 +5,14 @@ body {
   margin: 0px;
   padding: 0px;
 
+}
+
+.bodyD {
   background: url('../img/binding_dark.png');
+}
+
+.bodyJ {
+  background: url('../img/halftone-yellow.png');
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 
   box-shadow: 0px 0px 25px #CCC536;
 }
-
 
 footer{
   background-color: #33383c;
@@ -111,4 +117,23 @@ footer{
 .btn-gris:hover, .btn-gris:focus  {
   background-color: #a39e9e;
   box-shadow: 0px 0px 25px #a39e9e;
+}
+
+.btn-yellow {
+  background: url('../img/halftone-yellow.png');
+}
+
+.btn-yellow:hover, .btn-yellow:focus  {
+  background-color: #aaba1f;
+  box-shadow: 0px 0px 25px #aaba1f;
+}
+
+.btn-dark {
+  background: url('../img/binding_dark.png');
+  color: #ffffff;
+}
+
+.btn-dark:hover, .btn-dark:focus  {
+  box-shadow: 0px 0px 25px #000000;
+  color: #ffffff;
 }
